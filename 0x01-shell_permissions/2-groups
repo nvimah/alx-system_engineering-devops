@@ -1,2 +1,2 @@
 #!/bin/bash
-groups | cut -d: -f1 | tr '\n' ' '
+echo(groups | cut -d: -f1 | tr '\n' ' ')
